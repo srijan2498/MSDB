@@ -1,0 +1,21 @@
+.posterIni{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    text-align: center;
+}
+
+.headingPoster{
+    font-size: 3vw;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.searchValue{
+    color: blueviolet;
+    font-size: 3vw;
+    text-decoration: underline;
+}
