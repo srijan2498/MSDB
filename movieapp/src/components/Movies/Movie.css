@@ -1,0 +1,32 @@
+.poster{
+    /* background-color: aqua; */
+    /* margin: 5vw; */
+    /* width: fit-content; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.movieHeading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 5vw;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    color: #333;
+    position: relative;
+}
+
+.movieHeading::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: blueviolet;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

@@ -1,0 +1,95 @@
+nav{
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to right, rgba(30, 30, 172, 0.766) , purple);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    z-index: 2;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav h3{
+    font-variant: small-caps;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+nav h3:hover{
+    color: rgb(73, 2, 73);
+    letter-spacing: 4px;
+    cursor: default;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+}
+
+nav ul a{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 4vw;
+    letter-spacing: 0.3vw;
+    color: #fff;
+}
+
+nav ul a:hover{
+    color: #000;
+}
+
+input[type="text"]{
+    padding: 10px 0px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-right: 2vw;
+    outline: none;
+}
+
+input[type="submit"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+input[type="submit"]:hover{
+    background-color: #454545;
+    color: #fff;
+}
+
+@media all and (max-width: 1000px) {
+    nav{
+        flex-direction: column;
+    }
+
+    nav h3{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    nav ul{
+        padding: 5px;
+        justify-content: center;
+    }
+
+    .inputs{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 15px;
+    }
+}

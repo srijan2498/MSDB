@@ -1,0 +1,60 @@
+.singlePoster {
+    width: 320px;
+    height: 600px;
+    box-sizing: border-box;
+    /* background-color: burlywood; */
+    background-image: linear-gradient(to bottom, rgba(30, 30, 172, 0.766), purple);
+    margin: 50px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.singlePoster:hover {
+    border: 1px solid rgb(177, 158, 158);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+
+.singlePoster h3 {
+    margin-top: 15px;
+    font-size: 22px;
+    font-variant: small-caps;
+    padding: 13px;
+}
+
+.filmPoster{
+    height: 380px;
+    width: 280px;
+    margin: auto;
+    padding: 0px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.type {
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.year {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.singlePoster p span {
+    font-variant: small-caps;
+}
+
+.movieTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
