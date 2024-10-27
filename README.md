@@ -6,13 +6,20 @@ Check out the live version of MSDB here: [MSDB Live](https://msdb-app.netlify.ap
 
 # Features
 ✨ **Dynamic Data Fetching**: Connects to the OMDb API to fetch and display real-time movie information.
+
 ✨ **Search and Explore**: Users can search for movies and view comprehensive details.
+
 ✨ **Responsive Design**: Optimized layout ensures usability across devices.
+
 ✨ **React State Management**: Efficiently manages state to provide a smooth user experience.
 
 # Tech Stack
 **React** & **JSX**
+
 **JavaScript** & **CSS**
+
 **Axios** for API requests
+
 **React Hooks** for state and effect management
+
 **OMDb API** for fetching movie data
